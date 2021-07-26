@@ -27,3 +27,11 @@ p {
   align-content: space-evenly;
   align-items: center;
 }
+ul,
+li {
+  display: inline-block;
+  justify-items: center;
+}
+#lastcol {
+  align-content: center;
+}
