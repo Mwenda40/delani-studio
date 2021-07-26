@@ -16,12 +16,12 @@ header {
 p {
   text-align: center;
 }
-#col3 {
+#services {
   background: url("/images/backgrounds/c_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-#row4 {
+#whatwedo {
   justify-content: space-evenly;
   justify-items: center;
   align-content: space-evenly;
