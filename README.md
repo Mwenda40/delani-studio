@@ -6,7 +6,7 @@ This project is a website created using bootstrap and jquery for a fictional stu
 
 ## Setup/Installation Requirements
 
-*open your web browser and enter the following website,
+*open your web browser and enter the following website,https://github.io/Mwenda40/delani-studio
 *browse the website and click on various items to toggle.
 
 ## Technologies Used

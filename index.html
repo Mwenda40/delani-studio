@@ -49,62 +49,101 @@
       </div>
       <div id="whatwedo" class="row">
         <header>WHAT WE DO</header>
-        <div id="design" class="col-3">
-          <img src="images/services_icons/design_icon.png" alt="design icon" />
+        <div  class="col-3">
+          <p id="design"><img src="images/services_icons/design_icon.png" alt="design icon" /></p>
+            <header>Design</header>
+        
+        
+          <p id="designText">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+            Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is</p>
         </div>
-        <div id="designText">
-            <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
-                Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is</p>
-        </div>
-        <div id="development" class="col-3">
-          <img
+        <div class="col-3">
+          <p id="development" ><img
             src="images/services_icons/dev_icon.png"
             alt="development icon"
-          />
-        </div>
-        <div id="developmentText">
-            <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.
+          /></p> <header>Development</header>
+        
+            <p id="developmentText">All engineers are fluent in the latest enterprise, mobile and web development technologies.
                 They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
         </div>
-        <div id="product" class="col-3">
-          <img
+        <div  class="col-3">
+          <p id="product"><img
             src="images/services_icons/product_icon.png"
             alt="product icon"
-          />
-        </div>
-        <div id="productText">
-            <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
+          /></p> <header>Product</header>
+        
+            <p id="productText">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
                 This iterative process allows for changes as business requirements evolve.</p>
         </div>
       </div>
       <div class="row">
         <header>PORTFOLIO</header>
-        <div class="row">
-          <div class="col">
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <figure class="portfolio-item">
             <img src="images/portfolio/work4.jpg" alt="work 4" />
+            <figcaption class="img-title">
+                <h5>work 4</h5>    
+            </figcaption>
+            </figure>
           </div>
-          <div class="col">
+          <div class="col-md-3">
+            <figure class="portfolio-item">
             <img src="images/portfolio/work3.jpg" alt="work 3" />
+            <figcaption class="img-title">
+                <h5>work 3</h5>    
+            </figcaption>
+            </figure>
           </div>
-          <div class="col">
+          <div class="col-md-3">
+            <figure class="portfolio-item">
             <img src="images/portfolio/work2.jpg" alt="work 2" />
+            <figcaption class="img-title">
+                <h5>work 2</h5>    
+            </figcaption>
+            </figure>
           </div>
-          <div class="col">
+          <div class="col-md-3">
+              <figure class="portfolio-item">
             <img src="images/portfolio/work1.jpg" alt="work 1" />
+            <figcaption class="img-title">
+                <h5>work 1</h5>    
+            </figcaption>
+            </figure>
           </div>
         </div>
         <div class="row">
-          <div class="col">
-            <img src="images/portfolio/work5.jpg" alt="work 5" />
+          <div class="col-md-3">
+            <figure class="portfolio-item">
+                <img src="images/portfolio/work5.jpg" alt="work 5" />
+                <figcaption class="img-title">
+                    <h5>work 5</h5>    
+                </figcaption>
+                </figure>
           </div>
-          <div class="col">
-            <img src="images/portfolio/work6.jpg" alt="work 6" />
+          <div class="col-md-3">
+            <figure class="portfolio-item">
+                <img src="images/portfolio/work6.jpg" alt="work 6" />
+                <figcaption class="img-title">
+                    <h5>work 6</h5>    
+                </figcaption>
+                </figure>
           </div>
-          <div class="col">
-            <img src="images/portfolio/work7.jpg" alt="work 7" />
+          <div class="col-md-3">
+            <figure class="portfolio-item">
+                <img src="images/portfolio/work7.jpg" alt="work 7" />
+                <figcaption class="img-title">
+                    <h5>work 7</h5>    
+                </figcaption>
+                </figure>
           </div>
-          <div class="col">
-            <img src="images/portfolio/work8.jpg" alt="work8" />
+          <div class="col-md-3">
+            <figure class="portfolio-item">
+                <img src="images/portfolio/work8.jpg" alt="work 8" />
+                <figcaption class="img-title">
+                    <h5>work 8</h5>    
+                </figcaption>
+                </figure>
           </div>
         </div>
       </div>
@@ -112,10 +151,10 @@
         <div class="col-12">
           <header>CONTACT US</header>
           <p>
-              <form>
+              <form action=""> 
                 <div class="form-group row">
                     <div class="col-4">
-                    <input type="text" class="form-control" id="name" placeholder="Name">
+                    <input type="text" class="form-control" id="user" placeholder="Name">
                 </div>
                 <div class="col-4">
                     <input type="email" class="form-control" id="email" placeholder="Email"></div>
@@ -123,6 +162,7 @@
                 <div class="form-group">
                     <div class="col-8">
                     <textarea class="form-control" id="textarea" rows="4" placeholder="Your message here.."></textarea></div>
+                <button type="submit" onclick="reply()">Submit</button>
                 </div>
               </form>
           </p>
